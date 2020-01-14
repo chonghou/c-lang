@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ts/code/workspace/c-lang/cpp/signal_stu/main.cpp
+stdio.h
+-
+signal.h
+-
+unistd.h
+-
+
